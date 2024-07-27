@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KODE MAPA </title>
+    <meta name="description" content="Hope on the digital transformation journey your educational institue need.">
+    <link rel="icon" href="img/logo.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+    <style>
+        body {
+            background-color: #e0e5ec;
+        }
+        .neumorphic-card {
+            background: #e0e5ec;
+            border-radius: 20px;
+            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .neumorphic-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 25px 25px 75px #bebebe, -25px -25px 75px #ffffff;
+        }
+        .neumorphic-card img {
+            border-radius: 20px 20px 0 0;
+        }
+        .neumorphic-btn {
+            background: #e0e5ec;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .neumorphic-btn:hover {
+            background: #d1d9e6;
+            box-shadow: inset 5px 5px 15px #bebebe, inset -5px -5px 15px #ffffff;
+        }
+            .package-card {
+                background: #e0e5ec;
+                border-radius: 20px;
+                box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+                padding: 2rem;
+                margin: 1rem;
+                transition: transform 0.2s, box-shadow 0.2s;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .package-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 25px 25px 75px #bebebe, -25px -25px 75px #ffffff;
+            }
+            .package-header {
+                border-bottom: 3px solid;
+                padding-bottom: 0.5rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            .package-header.beginner {
+                border-color: #f1c40f;
+            }
+            .package-header.growth {
+                border-color: #00aaff;
+            }
+            .package-header.custom {
+                border-color: #ff00ff;
+            }
+            .price {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+            .original-price {
+                text-decoration: line-through;
+                color: red;
+            }
+            .discounted-price {
+                color: green;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            .features {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            .features li {
+                margin-bottom: 0.5rem;
+            }
+        </style>
+        
+    
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="https://kodemapa.com/" class="text-white lead">KODE MAPA</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="display-3 text-white font-weight-bold my-5">
+                A New Way<br>
+                to Start Digital Transformation
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="lead text-white my-4">
+                We welcome Shree Medha Degree College
+                <br> to explore our wide range of digital offerings, making your educational institution a better place
+                to learn.
+            </p>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        </div>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+        <section class="py-12 md:py-24 lg:py-32">
+            <div class="container px-4 md:px-6">
+                <div class="text-center mb-5">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Smart Learning with Kode Mapa</h2>
+                    <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
+                        Explore our suite of digital products designed to elevate your learning experience.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="neumorphic-card card h-100 text-center">
+                            <a href="#">
+                                <img src="/img/hand-drawn-online-tutor-illustration.png " alt="LMS" class="card-img-top" style="height: 256px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title">LMS</h3>
+                                <p class="card-text">Powerful learning management system to create and manage online courses.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="neumorphic-card card h-100 text-center">
+                            <a href="#">
+                                <img src="/img/hand-drawn-illustrated-gathering-data-concept.png" alt="ERP" class="card-img-top" style="height: 256px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title">ERP</h3>
+                                <p class="card-text">Comprehensive enterprise resource planning solution for educational institutions.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="neumorphic-card card h-100 text-center">
+                            <a href="#">
+                                <img src="/img/online-education-background.png" alt="Video Courses" class="card-img-top" style="height: 256px;">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title">Video Courses</h3>
+                                <p class="card-text">Engaging video courses on a wide range of topics to enhance your skills.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="neumorphic-card card h-100 text-center">
+                            <a href="#">
+                                <img src="/img/audio-books-flat-composition-with-young-people-listening-digital-audiobooks-podcasts-vector-illustration.png" alt="Audio and E- Notes" class="card-img-top" style="height: 256px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title">Audio and E- Notes</h3>
+                                <p class="card-text">Audio and E- Notes creafted by proffesionals on a wide range of topics to enhance your skills.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="neumorphic-card card h-100 text-center">
+                            <a href="#">
+                                <img src="/img/business-team-with-laptops-look-digital-presentation-with-charts-digital-presentation-office-online-meeting-visual-data-representation-concept-bright-vibrant-violet-isolated-illustration.png" alt="Professional Training" class="card-img-top" style="height: 256px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="card-title">Professional Training</h3>
+                                <p class="card-text">Comprehensive training programs to upskill professionals in various domains.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">Take a look inside</h2>
+                    <p class="my-4">Dive into a world where advanced technology <br>
+                        meets education, providing interactive and engaging content. 
+                    </p>
+                   
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true"
+                    class="col-md-6 align-self-center">
+                    <img src="img/laptop.png" alt="Take a look inside" class="mx-auto d-block" style="transform: scaleX(-1);">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Create, Organize, and Share</h2>
+                    <p class="my-4">
+                        Whether you’re crafting interactive lessons, compiling study materials, or collaborating with peers, 
+                        our platform provides the tools you need to streamline your educational experience. 
+                    </p>
+                   
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"
+                    class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/tab.png" alt="Safe and reliable" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- price table -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3">Check our pricing</h2>
+        <div class="container my-5">
+            <h2 class="text-center mb-5">Customized Plan for Shree Medha Degree College</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="package-card text-center h-100">
+                        <div class="package-header beginner">Beginner Package</div>
+                        <div class="price">
+                            <span class="original-price">₹ 61,999/month</span><br>
+                            <span class="discounted-price">₹ 58,499/month</span>
+                        </div>
+                        <ul class="features">
+                            <li>Separate Admin & Student Login.</li>
+                            <li>White Labeling.</li>
+                            <li>Android Application.</li>
+                            <li>iOS Application.</li>
+                            <li>Unlimited Storage.</li>
+                            <li>E-Library Support.</li>
+                            <li>Unlimited Logins.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="package-card text-center h-100">
+                        <div class="package-header growth">Growth Package</div>
+                        <div class="price">
+                            <span class="original-price">₹ 73,599/month</span><br>
+                            <span class="discounted-price">₹ 61,999/month</span>
+                        </div>
+                        <ul class="features">
+                            <li>Everything in Beginner Package.</li>
+                            <li>Video Course (Covering 150+ courses).</li>
+                            <li>Live Classes.</li>
+                            <li>Youtube Live Stream.</li>
+                            <li>Certificate Generation.</li>
+                            <li>Audio Books.</li>
+                            <li>E-PDFs for Technical Topics.</li>
+                            <li>Create Unlimited Courses, Exams, Materials.</li>
+                            <li>Support To Customized Page.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="package-card text-center h-100">
+                        <div class="package-header custom">Custom Package</div>
+                        <div class="price">
+                            
+                            <span class="discounted-price">Contact Us for Pricing</span>
+                        </div>
+                        <ul class="features">
+                            <li>Growth Package +</li>
+                            <li>JEE+NEET Package (videos, Notes, Exams).</li>
+                            <li>Exam Pad Create and download Exams Dynamically.</li>
+                            <li>ERP.</li>
+                            <li>Digital Marketing Support.</li>
+                            <li>Professional training for any industrial skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+    </div>
+
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contact Us</h2>
+                    <p class="my-4">
+                        Discover our suite of digital products, including an LMS, ERP, video courses, and professional training,
+                         designed to elevate your educational experience.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email : pavan.oggu@kodemapa.com</li>
+                        <li>Phone : 8884249383</li>
+                        <li>Address : 2nd Floor, 351/1/23A, Infantry Road, near Ballari club, Ashok Nagar, Rajeshwari nagar, Ballari, Karnataka 583101</li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-6">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="name" class="form-control" id="name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="Email">Your Email</label>
+                                <input type="email" class="form-control" id="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    Copyright © Kode Mapa.
+                </div>
+                <!-- <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="#" class="d-inline-block text-center ml-2">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                        <i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
+</body>
+
+</html>
